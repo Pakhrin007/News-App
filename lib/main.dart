@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news/ui/homescreen.dart';
 import 'package:news/ui/splash_screen.dart';
 
 void main() {
