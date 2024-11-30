@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:news/homepage.dart';
 import 'package:news/ui/List.dart';
+// import 'package:news/ui/expansionpannelist.dart';
 import 'package:news/ui/homescreen.dart';
 import 'package:news/ui/splash_screen.dart';
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Listed(),
+      home: Nited(),
     );
   }
 }
